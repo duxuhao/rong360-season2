@@ -1,0 +1,16 @@
+程序说明
+dataprocessunion.py ---将所有数据处理过程整合，用于输出供模型使用的变量表
+datawash.py         ---数据清洗/异常值处理
+datawatch.py        ---可删除
+helpfunction.py     ---用于使用help函数
+mixture.py          ---混合
+model.py            ---模型
+relation1.py        ---relation1表的处理
+relation2.py        ---relation2表的处理
+rong_tag.py         ---rong_tag表的处理
+user_info.py        ---用户基本信息表的处理
+usercluster.py      ---用户聚类用于加入聚类特征
+usercostif.py       ---用户消费信息表处理
+使用说明：直接先使用dataprocessunion.py后使用model.py
+备注：1.dataprocessunion包含相应的绘图函数，
+      2.读取文件，保存文件需要配置好相应路径（程序中均标注出）

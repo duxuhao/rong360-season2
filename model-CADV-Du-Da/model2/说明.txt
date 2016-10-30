@@ -1,0 +1,4 @@
+#该工程为pycharm工程
+1。需将相应文件路径配置好
+2。运行dataprocessunion.py
+3。运行model.py

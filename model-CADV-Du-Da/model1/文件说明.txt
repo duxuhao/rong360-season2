@@ -1,0 +1,15 @@
+model1_export.py  	——— 模型结果输出文件
+
+xgb_LRS_SA_RGSS.py  	——— 2级特征筛选文件
+
+combination_pickup.py 	——— 交叉特征添加文件
+    
+impute.py 		——— 预处理文件，填补缺失值
+    
+feature_summary.py 	——— 2级特征提取文件
+
+test_new_label_2.csv 	——— 预测用户
+
+train_new_label_2.csv 	——— 训练用户
+
+xgbimpute.csv 		——— 填补缺失值后的用户特征文件

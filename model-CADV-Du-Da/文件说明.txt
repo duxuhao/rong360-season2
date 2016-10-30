@@ -1,0 +1,13 @@
+run.sh		  	——— 结果输出文件，自动运行两个模型及融合代码
+
+ensemble.py	  	——— 融合代码
+
+model1_answer.txt 	——— 模型1输出文件
+
+model2_answer.txt 	——— 模型1输出文件
+
+CADV-Du-Da-6224.txt 	——— 最终提交文件
+
+model1		 	——— 模型1文件夹
+
+model2		 	——— 模型2文件夹
