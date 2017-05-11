@@ -127,6 +127,7 @@ def myrandom(clf, df, auc, Startcol, col, step = 3000):
 
 def LRS_SA_RGSS_combination(randomauc, df, Startcol, tempx, ColumnName):
     auc = 0
+    clf = 0
     while randomauc > auc:
         Startcol, auc = greedy(clf, df, randomauc, Startcol, tempx, ColumnName[:])
         print 'random select starts with',
